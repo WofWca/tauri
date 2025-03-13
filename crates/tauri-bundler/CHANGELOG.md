@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.2.5]
+
+### Bug Fixes
+
+- [`3626b7a92`](https://www.github.com/tauri-apps/tauri/commit/3626b7a92be2890a82e8d5bd00d13887e199ea4a) ([#12759](https://www.github.com/tauri-apps/tauri/pull/12759) by [@ninjadev64](https://www.github.com/tauri-apps/tauri/../../ninjadev64)) Fix resources being bundled to the wrong path during RPM bundling when resources are specified as a map.
+
 ## \[2.2.4]
 
 ### Enhancements

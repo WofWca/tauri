@@ -1,5 +1,16 @@
 # Changelog
 
+## \[2.4.0]
+
+### New Features
+
+- [`20c190691`](https://www.github.com/tauri-apps/tauri/commit/20c19069125c89b2d45a2127278c9ffc2df35fc2) ([#12821](https://www.github.com/tauri-apps/tauri/pull/12821) by [@Simon-Laux](https://www.github.com/tauri-apps/tauri/../../Simon-Laux)) Added `WindowOptions::javascriptDisabled` and `WebviewOptions::javascriptDisabled`.
+- [`060de5bbd`](https://www.github.com/tauri-apps/tauri/commit/060de5bbdddca384e3965a8938d89840f27c581d) ([#12837](https://www.github.com/tauri-apps/tauri/pull/12837) by [@niladrix719](https://www.github.com/tauri-apps/tauri/../../niladrix719)) Added `getIdentifier()` function to get the application identifier configured in tauri.conf.json
+
+### Bug Fixes
+
+- [`3a74dc8f3`](https://www.github.com/tauri-apps/tauri/commit/3a74dc8f3421112b1d0a32b6a432606b1f33cc25) ([#12935](https://www.github.com/tauri-apps/tauri/pull/12935) by [@tk103331](https://www.github.com/tauri-apps/tauri/../../tk103331)) Fix `Webview.close` always fail with command not found
+
 ## \[2.3.0]
 
 ### Enhancements
